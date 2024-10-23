@@ -1,0 +1,50 @@
+header p{
+  text-align:center;
+}
+
+body{
+    background-color:cornflowerblue;
+    background-image: linear-gradient(to right, cornflowerblue, darkorchid);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body h1, h2{
+  text-align:center;
+}
+
+body p{
+  text-align:center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:darkorchid;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:blue;
+  }
+
+footer p{
+  bottom:0%;
+  text-align:center;
+}
+
+#contactForm{
+  text-align:left;
+}
